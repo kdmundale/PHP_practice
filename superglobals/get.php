@@ -6,10 +6,13 @@
   </head>
   <body>
 
-    <form action="post.php" method="post">
+    <?php
+    ?>
+
+    <form action="get.php" method="get">
       <input type="text" name="name" value="">
-      <input type="text" name="age" value="">
-      <button type="submit" name="button">Submit</button>
+      <input type="password" name="password">
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>

@@ -7,13 +7,14 @@
   <body>
 
     <?php
-    if(isset($_POST)){
+
+    if(!empty($_POST)){
       echo $_POST['name'].", your form is submitted.";
-    } else {
-      echo "bang";
+      echo "<br>";
     }
-    echo "<br>";
+
     print_r($_POST);
+
     ?>
 
     <form action="post.php" method="post">
